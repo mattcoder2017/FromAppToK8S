@@ -12,8 +12,10 @@ namespace ProductService.CommandHandlers
 {
     public class ABC
     {
-        public void abc()
-        {}
+        public String abc()
+        {
+           return "abc";
+        }
     }
 
     public class NewProductCommandHandler : ICommandHandler<NewProductCommand>
